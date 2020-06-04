@@ -21,6 +21,21 @@ class MockCreateNewEntriesMessageStream implements CreateNewEntriesMessageStream
         return count($this->errors) > 0;
     }
 
+    public function getText()
+    {
+        // TODO: Implement getText() method.
+    }
+
+    public function getEmail()
+    {
+        // TODO: Implement getEmail() method.
+    }
+
+    public function getName()
+    {
+        // TODO: Implement getName() method.
+    }
+
     public function addError(string $string)
     {
        $this->errors[]=$string;
